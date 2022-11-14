@@ -1,4 +1,4 @@
-# DeFund
+# Install DeFund
 
 ## Requirments
 * 16GB RAM
@@ -169,4 +169,4 @@ systemctl enable defundd
 systemctl restart defundd && journalctl -u defundd -f -o cat
 ```
 
-## Well done! Check useful comand:
+## Well done! Check validator.md and useful commands.md!
