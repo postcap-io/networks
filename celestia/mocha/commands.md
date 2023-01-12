@@ -187,7 +187,8 @@ echo $(celestia-appdd tendermint show-node-id)@$(curl ifconfig.me)$PORTR
 
 ### Find out RPC port
 
-```echo -e "\033[0;32m$(grep -A 3 "\[rpc\]" ~/.celestia-appd/config/config.toml | egrep -o ":[0-9]+")\033[0m"
+```
+echo -e "\033[0;32m$(grep -A 3 "\[rpc\]" ~/.celestia-appd/config/config.toml | egrep -o ":[0-9]+")\033[0m"
 ```
 
 ### Checking the number of peers

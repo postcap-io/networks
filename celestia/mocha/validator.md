@@ -1,5 +1,15 @@
 # Run Validator
 
+### Set up wallet
+
+`lavad keys add <name_wallet> `
+
+##### Restore wallet (after insert seed command)
+`lavad keys add <name_wallet> --recover`
+
+##### After creating a wallet, you need to go to the project's discord, request tokens and check the balance of the wallet. Tokens are needed to create a validator
+`celestia-appd q bank balances <addr>`
+
 ```
 celestia-appd tx staking create-validator \
 --chain-id mocha \
